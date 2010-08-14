@@ -1,4 +1,7 @@
 	$(document).ready(function()
 	{
-		console.log('jQuery loaded');
+		$("h2").click(function()
+		{
+			$('body').css("cursor", "pointer");
+		});
 	});
